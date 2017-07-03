@@ -1,0 +1,65 @@
+.type_box {
+	margin: 0;
+	padding: 0;
+}
+.type_box header{
+	margin: 0;
+	padding: 0;
+}
+.type_box header h2{
+	margin: 0;
+	padding: 0;
+}
+.type_box header p{
+	padding:3rem 0;
+	padding-bottom: 4rem;
+}
+.market_box{
+	background: url(images/brief02.png) no-repeat center;
+	overflow: hidden;
+}
+.market header{
+	text-align: center;
+	font-size: 36px;
+	padding: 30px 0;
+}
+.market{
+	overflow: hidden;
+}
+.market ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 40px 0;
+}
+.market ul li p{
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	font-size: 60px;
+}
+.market ul li p i{
+	font-size: 18px;
+	font-style: normal;
+	color: #777;
+}
+.market ul li span{
+	font-size: 14px;
+}
+@media screen and (max-width: 768px) {
+	.market header{
+		font-size: 24px;
+	}
+	.market ul{
+		padding: 0 15px;
+	}
+	.market ul li p{
+		font-size: 40px;
+	}
+	.market ul li p i{
+		font-size: 14px;
+	}
+	.market ul li span{
+		font-size: 12px;
+	}
+}

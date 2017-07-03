@@ -1,0 +1,278 @@
+.tab_control .tab-content .one{
+	max-width: 1400px;
+	margin: 0 auto;
+	padding:5rem 0 8rem 0;
+}
+.tab_control .tab-content #pages .one .content_img{
+	margin-top:5rem;
+}
+.tab_control .tab-content .tab-pane .row .content_img{
+	text-align: center;
+	
+}
+.tab_control .tab-content .tab-pane .row .content_text ._top h1{
+	font-size: 2rem;
+}
+.tab_control .tab-content .tab-pane .row .content_text ._top p{
+	font-size: 1rem;
+	line-height:2rem;
+	color: #666666;
+}
+.tab_control .tab-content .tab-pane .row .content_text ._top button{
+	margin:2rem 0 2rem 0;
+	border: none;
+	background: #009FE5;
+	font-size: 1.2rem;
+	width: 10rem;
+	height: 3rem;
+	border-radius:10rem;
+}
+.tab_control .tab-content .tab-pane .row .content_text .px h1{
+	margin-top:3rem;
+}
+.tab_control .tab-content .tab-pane .row .content_text .px p{
+	margin-top: 3rem;
+}
+ .tab-content .tab-pane .row .content_text ._top button a{
+	color: white;
+}
+
+.tab-content .tab-pane .row .content_text ._top{
+	border-bottom: 1px solid #ECECEC;
+}
+.tab_control  #propaganda  .row .content_text ._top{
+	border-bottom:none;
+}
+.tab_control  #pages  .row .content_text ._top{
+	border-bottom:none;
+}  
+.tab_control .tab-content .tab-pane .row .content_text ._bottom h4{
+	text-align: start;
+	margin-top:1rem;
+	font-size: 1.1rem;
+}
+.tab_control .tab-content .tab-pane .row .content_text ._bottom .row{
+	
+	
+}
+.tab_control .tab-content .row .content_text ._bottom .row a{
+	margin-top: 1rem;
+	padding:1rem;
+	font-size:0.6rem;
+	padding-left:3rem;
+}
+
+
+
+.tab_control .tab-content .row .content_text ._bottom .row a:nth-child(1){
+	background: url(../images/img/001.png) no-repeat;
+	background-position:8% center;
+}
+.tab_control .tab-content .row .content_text ._bottom .row a:nth-child(2){
+	background:url(../images/img/xkp.png) no-repeat;
+	background-position:8% center;
+}
+.tab_control .tab-content .row .content_text ._bottom .row a:nth-child(3){
+	background: url(../images/img/dxkj.png) no-repeat;
+	background-position:8% center;
+}
+.tab_control .tab-content .row .content_text ._bottom .row a:nth-child(4){
+	background: url(../images/img/dxtc.png) no-repeat;
+	background-position:8% center;
+}
+.tab_control .tab-content .row .content_text ._bottom .row a:nth-child(5){
+	background: url(../images/img/dxfl.png) no-repeat;
+	background-position:8% center;
+}
+.tab_control .tab-content .row .content_text ._bottom .row a:nth-child(6){
+	background: url(../images/img/zncd.png) no-repeat;
+	background-position:8% center;
+}
+.tab_control .tab-content .plan .row .content_text ._bottom .row a{
+	margin-top: 1rem;
+	padding-left:1.8rem;
+	font-size:0.6rem;
+	padding-top:3rem;
+	
+}
+.tab_control .tab-content .plan .row .content_text ._bottom .row a{
+	letter-spacing: 0.1rem;
+}
+.tab_control .tab-content .plan .row .content_text ._bottom .row a:nth-child(1){
+	background: url(../images/baoxianhui.png) no-repeat;
+	background-position:20% 0;
+}
+.tab_control .tab-content .plan .row .content_text ._bottom .row a:nth-child(2){
+	background: url(../images/zhegnquan.png) no-repeat;
+	background-position:20% 0;
+}
+.tab_control .tab-content .plan .row .content_text ._bottom .row a:nth-child(3){
+	background: url(../images/gengduo.png) no-repeat;
+	background-position:20% 0;
+}
+.tab_control .tab-content .plan .row .content_text ._bottom .row a.active:nth-child(1){
+	background: url(../images/baoxian.png) no-repeat;
+	background-position:20% 0;
+}
+.tab_control .tab-content .plan .row .content_text ._bottom .row a.active:nth-child(2){
+	background: url(../images/zhegnquanlan.png) no-repeat;
+	background-position:20% 0;
+}
+
+
+.tab_control #cd .row  ._bottom .row a:nth-child(6){
+	color: #009ef5;
+	background: url(../images/img/6000.png) no-repeat;
+	background-position:8% center;
+}
+.tab_control #fl .row  ._bottom .row a:nth-child(5){
+	color: #009ef5;
+	background: url(../images/img/5000.png) no-repeat;
+	background-position:8% center;
+}
+.tab_control #tc .row  ._bottom .row a:nth-child(4){
+	color: #009ef5;
+	background: url(../images/img/4000.png) no-repeat;
+	background-position:8% center;
+}
+.tab_control #kj .row  ._bottom .row a:nth-child(3){
+	color: #009ef5;
+	background: url(../images/img/3000.png) no-repeat;
+	background-position:8% center;
+}
+.tab_control #twooo .row  ._bottom .row a:nth-child(2){
+	color: #009ef5;
+	background: url(../images/img/2000.png) no-repeat;
+	background-position:8% center;
+}
+.tab_control #menu .row  ._bottom .row a:nth-child(1){
+	color: #009ef5;
+	background: url(../images/img/1000.png) no-repeat;
+	background-position:8% center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.course{
+	padding: 0 3.75rem;
+	margin:3rem auto;
+	max-width: 1320px;
+	position: relative;
+	
+}
+.course .prev,.next{
+	width: 3.75rem;
+	height: 3.75rem;
+	border-radius:3.75rem;
+	border: 3px solid #DDDDDD;
+	text-align: center;
+	line-height: 3.4rem;
+	font-size: 1.6rem;
+	color: #757575;
+	cursor: pointer;
+}
+.course .prev{
+	position: absolute;
+	left: 0;
+	top: 54%;
+}
+.course .next{
+	position: absolute;
+	right: 0;
+	top: 54%;
+}
+.course  .content{
+	max-width: 1200px;
+	margin: auto;
+	
+	overflow: hidden;
+}
+.course  .content ul{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	height:30rem;
+	position: relative;
+	transition: all 0.3s;
+}
+.course  .content ul:before{
+	content: ' ';
+	position: absolute;
+	top:50%;
+	height: 2px;
+	width: 100%;
+	background: #DDDDDD;
+}
+.course  .content ul li{
+	float: left;
+	width: 12.5rem;
+	position: relative;
+	padding: 2rem;
+	height:30rem;
+	
+	
+}
+.course  .content ul li .time_context{
+	
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right:-5rem;
+	
+	
+}
+.course  .content ul li .time{
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius:50%;
+	border: 2px solid #424242;
+	text-align: center;
+	line-height: 2.5rem;
+	font-size: 0.8rem;
+}
+.course  .content ul li h3,p{
+	letter-spacing: 0.1rem;
+}
+.course  .content ul li h3{
+	font-size: 1.3rem;
+}
+.course  .content ul li p{
+	font-size: 0.8rem;
+}
+.course  .content ul li:nth-child(odd) .time{
+	position: absolute;
+	left: 45%;
+	bottom:46%;	
+}
+.course  .content ul li:nth-child(even) .time_context{
+	padding-top: 18rem;
+}
+.course  .content ul li:nth-child(even) .time{
+	position: absolute;
+	left: 45%;
+	top:46%;
+}

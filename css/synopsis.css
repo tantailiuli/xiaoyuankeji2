@@ -1,0 +1,408 @@
+ html,body {
+            width:100%;
+            height:100%;
+            margin:0px;
+            padding:0px;
+        }
+.introduce{
+	border-bottom:1px solid #DDDDDD;
+}
+.introduce .row{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+h2{
+	font-size:2rem;
+	text-align: center;
+	padding: 2rem 0;
+	
+}
+.introduce p{
+	text-indent: 2rem;
+	padding-top: 3rem;
+	line-height: 2rem;
+	letter-spacing: 0.1rem;
+	color: #707070;
+}
+.introduce ul li{
+	text-align: center;
+	margin: 5rem 0;
+}
+.introduce ul li h3{
+	letter-spacing: 0.5rem;
+	font-size:1.5rem;
+}
+.introduce ul li img{
+	padding:3rem 0;
+}
+.introduce ul li span{
+	font-size:1rem;
+	letter-spacing: 0.3rem;
+	color: #808080;
+}
+.introduce ul li:nth-child(3) img{
+	padding: 2.7rem 0;
+}
+
+
+
+
+
+.course{
+	padding: 0 3.75rem;
+	margin:0 auto;
+	margin-top: 3rem;
+	max-width: 1320px;
+	position: relative;
+}
+.course .prev{
+	width: 3.75rem;
+	height: 3.75rem;
+	border-radius:3.75rem;
+	border: 3px solid #DDDDDD;
+	text-align: center;
+	line-height: 3.4rem;
+	font-size: 1.6rem;
+	color: #757575;
+	cursor: pointer;
+	position: absolute;
+	left: 0;
+	top: 54%;
+}
+.course .prev.active{
+	border: none;
+	background: #009FE5;
+	color: white;
+}
+
+.course .next{
+	width: 3.75rem;
+	height: 3.75rem;
+	border-radius:3.75rem;
+	border: 3px solid #DDDDDD;
+	text-align: center;
+	line-height: 3.4rem;
+	font-size: 1.6rem;
+	color: #757575;
+	cursor: pointer;
+	position: absolute;
+	right: 0;
+	top: 54%;
+}
+.course .next.active{
+	border: none;
+	background: #009FE5;
+	color: white;
+}
+.course  .content{
+	max-width: 1200px;
+	margin: auto;
+	overflow: hidden;
+}
+.course  .content ul{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	height:35rem;
+	position: relative;
+	transition: all 0.3s;
+	padding: 0 8%;
+/*	border: 1px solid red;*/
+	/*margin-right: -500px;*/
+}
+.course  .content ul:before{
+	content: ' ';
+	position: absolute;
+	left: 0;
+	right: 0;
+	top:50%;
+	height: 2px;
+	width: 100%;
+	background: #DDDDDD;
+}
+.course  .content ul li{
+	float: left;
+	width: 10rem;
+	position: relative;
+	padding:2rem;
+	height:35rem;
+}
+.course  .content ul li .time_context{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right:-5rem;
+}
+.course  .content ul li .time{
+	width: 3rem;
+	height: 3rem;
+	border-radius:50%;
+	border: 2px solid #424242;
+	text-align: center;
+	line-height: 3rem;
+	font-size: 1%;
+}
+.course  .content ul li h3,p{
+	letter-spacing: 0.1rem;
+}
+.course  .content ul li h3{
+	font-size: 1.3rem;
+	color: #666160;
+}
+.course  .content ul li p{
+	font-size: 1rem;
+	color: #999999;
+	margin: 0;
+	padding: 0;
+}
+.course  .content ul li:nth-child(odd) .time{
+	position: absolute;
+	left: 45%;
+	bottom:46%;	
+}
+.course  .content ul li:nth-child(odd) .time_context{
+	padding-top: 0;
+}
+.course  .content ul li:nth-child(odd) .time_context:before{
+	content: " ";
+	position: absolute;
+	height:1.5rem;
+	width: 2px;
+	background: #DDDDDD;
+	top:37%;
+	left: 53%;
+}
+.course  .content ul li:nth-child(even) .time_context{
+	padding-top: 22rem;
+}
+.course  .content ul li:nth-child(even) .time_context:before{
+	content: " ";
+	position: absolute;
+	height:1.5rem;
+	width: 2px;
+	background: #DDDDDD;
+	left: 55%;
+	top: 56%;
+}
+.course  .content ul li:nth-child(even) .time{
+	position: absolute;
+	left: 45%;
+	top:46%;
+}
+
+
+
+
+
+
+
+
+
+.join .row{
+	max-width: 800px;
+	margin:2rem auto;
+}
+
+.join .row ul li a{
+	display: block;
+	text-align: center;
+}
+.join .row ul li div{
+	display: inline-block;
+	width: 6.25rem;
+	height: 6.25rem;
+	border-radius:50%;
+	line-height: 6.25rem;
+	background: #FFB639;
+	font-size: 2rem;
+	color: white;
+}
+.join .row ul li a p{
+	margin: 2rem 0;
+	font-size:1.2rem;
+	letter-spacing: 0.1rem;
+	color: #333333;
+}
+.join .row ul li .ty2{
+	background: #37BCFF;
+}
+.join .row ul li .ty3{
+	background: #14CFE9;
+}
+.join .row ul li .ty4{
+	background: #FF4842;
+}
+
+
+
+
+html{
+	font-size: 16px;
+}
+@media screen and (max-width:960px) {
+    html {
+        font-size: 12px;
+    }
+   .introduce ul li h3{
+   	font-size:1rem;
+   }
+}
+
+@media screen and (max-width:768px) {
+    html {
+        font-size:10px;
+    }
+
+	.introduce p{
+		text-indent: 2.8rem;
+	}
+	.course .prev{
+		width: 3.75rem;
+		height: 3.75rem;
+		border-radius:3.75rem;
+		border: 3px solid #DDDDDD;
+		text-align: center;
+		line-height: 3.4rem;
+		font-size: 1.6rem;
+		color: #757575;
+		cursor: pointer;
+		position: absolute;
+		left: 0;
+		top: 40%;
+	}
+	.course .prev.active{
+		border: none;
+		background: #009FE5;
+		color: white;
+	}
+	
+	.course .next{
+		width: 3.75rem;
+		height: 3.75rem;
+		border-radius:3.75rem;
+		border: 3px solid #DDDDDD;
+		text-align: center;
+		line-height: 3.4rem;
+		font-size: 1.6rem;
+		color: #757575;
+		cursor: pointer;
+		position: absolute;
+		right: 0;
+		top: 40%;
+	}
+	.course .next.active{
+		border: none;
+		background: #009FE5;
+		color: white;
+	}
+	.course  .content{
+		max-width: 1200px;
+		margin: auto;
+		overflow: hidden;
+	}
+	.course  .content ul{
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		height:20rem;
+		position: relative;
+		transition: all 0.3s;
+		/*padding: 0 8%;*/
+		width: 100%;
+		/*margin-right: -500px;*/
+/*		border: 1px solid red;*/
+	}
+	.course  .content ul:before{
+		content: ' ';
+		position: absolute;
+		left: 0;
+		right: 0;
+		top:30%;
+		height: 2px;
+		width: 100%;
+		background: #DDDDDD;
+	}
+	.course  .content ul li{
+		float: none;
+		
+		position: absolute;
+		top: 0;
+		left:0;
+		bottom: 0;
+		right:0;
+		padding:2rem 2rem;
+		height:20rem;
+		width: 100%;
+	}
+	.course  .content ul li .time_context{
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right:0;
+		left: 0;
+	}
+	.course  .content ul li .time{
+		width: 3rem;
+		height: 3rem;
+		border-radius:50%;
+		border: 2px solid #424242;
+		text-align: center;
+		line-height: 3rem;
+		font-size: 1%;
+	}
+	.course  .content ul li h3,p{
+		letter-spacing: 0.1rem;
+	}
+	.course  .content ul li h3{
+		padding-bottom: 1rem;
+		font-size: 1.3rem;
+		color: #666160;
+		text-align: center;
+	}
+	.course  .content ul li p{
+		font-size: 1rem;
+		color: #999999;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		margin-top:5rem;
+		
+	}
+	.course  .content ul li:nth-child(odd) .time{
+		position: absolute;
+		left: 46%;
+		top:23%;	
+	}
+	.course  .content ul li:nth-child(even) .time{
+		position: absolute;
+		left: 46%;
+		top:23%;
+	}
+	.course  .content ul li:nth-child(odd) .time_context{
+		padding-top: 0;
+	}
+	.course  .content ul li:nth-child(even) .time_context{
+		padding-top: 0;
+	}
+	.course  .content ul li:nth-child(odd) .time_context:before{
+		content: " ";
+		position: absolute;
+		height:0;
+		width: 0;
+		background: #DDDDDD;
+		top:28%;
+		left: 50%;
+	}
+
+	.course  .content ul li:nth-child(even) .time_context:before{
+		content: " ";
+		position: absolute;
+		height:0;
+		width: 0;
+		background: #DDDDDD;
+		top:28%;
+		left: 50%;
+	}
+
+}
+

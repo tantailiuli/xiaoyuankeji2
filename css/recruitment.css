@@ -1,0 +1,257 @@
+.main_box{
+	background-color: #fff;
+	overflow: hidden;
+	padding: 105px 0 75px;
+}
+.main_box .main ul.sel{
+	padding: 0;
+}
+.main_box .main ul.sel li{
+	float: left;
+	width: 100%;
+	text-align: center;
+	cursor: pointer;
+}
+.main_box .main ul.sel li span{
+	width: 100%;
+	float: left;
+	font-size: 16px;
+	height: 50px;
+	line-height: 50px;
+	color: #666;
+	cursor: pointer;
+}
+.main_box .main ul.sel li.cur{
+	color: #009ef5;	
+}
+.main_box .main ul.sel li div.step_sel1{
+	float: left;
+	width: 100%;
+	overflow: hidden;
+}
+.main_box .main ul.sel li div.step_sel1 a{
+	width: 100%;
+	float: left;
+	font-size: 16px;
+	height: 50px;
+	line-height: 50px;
+	color: #666;
+	cursor: pointer;
+}
+.main_box .main ul.sel li.cur div.step_sel1 a.cur{
+	background-color: #f5f5f5;
+	border-left: 2px solid #009ef5;
+}
+.main_box .main ul.cnt li{
+	width: 95.877%;
+	margin: 0 auto;
+	display: none;
+}
+.main_box .main ul.cnt li:first-child{
+	display: block;
+}
+.main_box .main ul.cnt li div.step_cnt1{
+	position: relative;
+	display: none;
+	min-height: 900px;
+}
+.main_box .main ul.cnt li div.step_cnt1:first-child{
+	display: block;
+}
+.main_box .main ul.cnt li div.step_cnt1 table{
+	width: 100%;
+}
+.main_box .main ul.cnt li div.step_cnt1 table tr{
+	height: 55px;
+	cursor: pointer;
+}
+.main_box .main ul.cnt li div.step_cnt1 table tr:not(:first-child){
+	border-bottom: 1px solid #ddd;
+}
+.main_box .main ul.cnt li div.step_cnt1 table tr:not(:first-child):hover{
+	background-color: #fdfdfd;
+}
+.main_box .main ul.cnt li div.step_cnt1 table tr td{
+	color: #666;
+}
+.main_box .main ul.cnt li div.step_cnt1 table tr th:not(:first-child),
+.main_box .main ul.cnt li div.step_cnt1 table tr td:not(:first-child){
+	text-align: center;
+}
+.main_box .main ul.cnt li div.step_cnt1 table tr th:first-child{
+	width: 45%;
+}
+.main_box .main ul.cnt li div.step_cnt1 table tr th:first-child,
+.main_box .main ul.cnt li div.step_cnt1 table tr td:first-child{
+	padding-left: 5%;
+}
+.main_box .main ul.cnt li div.step_cnt1 table tr th:nth-child(2){
+	width: 18%;
+}
+.main_box .main ul.cnt li div.step_cnt1 table tr th:nth-child(3){
+	width: 19%;
+}
+.main_box .main ul.cnt li div.step_cnt1 table tr th:last-child{
+	width: 18%;
+}
+.main_box .main ul.cnt li div.step_cnt1 table tr th{
+	border-left: 1px solid #fff;
+	background-color: #f5f5f5;
+}
+.main_box .main ul.cnt li div.step_cnt1 p.lookmore{
+	width: 100%;
+	height: 55px;
+	line-height: 55px;
+	text-align: center;
+}
+.main_box .main ul.cnt li div.step_cnt1 p.lookmore a{
+	cursor: pointer;
+}
+.main_box .main ul.cnt li div.step_cnt1 p.lookmore a:hover{
+	color: #009ef5;
+}
+.main_box .main ul.cnt li div.step_cnt1 .recruitabs{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 0 0 40px 0;
+	background-color: #fff;
+	z-index: 90;
+	box-shadow: 0 0 5px 2px #ddd;
+}
+.main_box .main ul.cnt li div.step_cnt1 .del_fix{
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	width: 16px;
+	height: 16px;
+	display: block;
+	cursor: pointer;
+	z-index: 99;
+	background:url(../images/icon/delate.png);
+	display: none;
+}
+.main_box .main ul.cnt li div.step_cnt1 .recruitabs header{
+	background-color: #fcfcfe;
+	padding: 0 50px;
+	overflow: hidden;
+	
+	text-align: left;
+}
+.main_box .main ul.cnt li div.step_cnt1 .recruitabs header h3{
+	width: 100%;
+	float: left;
+	font-size: 24px;
+	margin: 28px 0 17px 0;
+	
+}
+.main_box .main ul.cnt li div.step_cnt1 .recruitabs header h4{
+	width: 100%;
+	float: left;
+	
+	text-align: left;
+	font-size: 18px;
+	margin: 0;
+}
+.main_box .main ul.cnt li div.step_cnt1 .recruitabs header h4 span:first-child{
+	float: left;
+}
+.main_box .main ul.cnt li div.step_cnt1 .recruitabs header h4 span:last-child{
+	float: right;
+}
+.main_box .main ul.cnt li div.step_cnt1 .recruitabs header h4 span a{
+	color: #009ef5;
+}
+.main_box .main ul.cnt li div.step_cnt1 .recruitabs header h6{
+	width: 100%;
+	float: left;
+	font-size: 14px;
+	margin: 20px 0;
+	color: #777;
+}
+.main_box .main ul.cnt li div.step_cnt1 .recruitabs h3{
+	margin: 15px 50px 20px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.main_box .main ul.cnt li div.step_cnt1 .recruitabs .pdiv{
+	padding:0 50px;
+	overflow: hidden;
+}
+.main_box .main ul.cnt li div.step_cnt1 .recruitabs .pdiv p{
+	float: left;
+	width: 100%;
+	margin: 0;
+	color: #666;
+}
+.main_box .main ul.cnt li div.step_cnt2{
+	overflow: hidden;
+}
+.main_box .main ul.cnt li div.step_cnt2 .img_box1,
+.main_box .main ul.cnt li div.step_cnt2 .img_box2{
+	float: left;
+	padding: 0;
+}
+.main_box .main ul.cnt li div.step_cnt2 .img_box1 .img,
+.main_box .main ul.cnt li div.step_cnt2 .img_box2 .img{
+	float: left;
+}
+.main_box .main ul.cnt li div.step_cnt2 .img_box1 .img{
+	width: 33.333333333%;
+}
+.main_box .main ul.cnt li div.step_cnt2 .img_box1 .img1{
+	width: 66.666666666%;
+}
+.main_box .main ul.cnt li div.step_cnt2 .img_box1 .img3{
+	margin-left: 33.333333333%;
+}
+.main_box .main ul.cnt li div.step_cnt2 .img_box1 .img6{
+	float: right;
+}
+@media screen and (max-width: 991px) {
+	.main_box {
+		padding: 50px 0 30px;
+	}
+	.main_box .main ul.sel{
+		padding: 0 15px;
+	}
+	.main_box .main ul.sel{
+		position: relative;
+	}
+	.main_box .main ul.sel li{
+		width: 100%;
+	}
+	.main_box .main ul.sel li:nth-child(2){
+		position: absolute;
+		width:50%;	
+		right: 0;
+		bottom: 0;
+	}
+	.main_box .main ul.cnt li{
+		width: 100%;
+		margin: 0;
+	}
+	.main_box .main ul.sel li div.step_sel1 a{
+		width: 50%;
+	}
+	.main_box .main ul.cnt li div.step_cnt2 .img_box1 .img1{
+		width: 100%;
+	}
+	.main_box .main ul.cnt li div.step_cnt2 .img_box1 .img2,
+	.main_box .main ul.cnt li div.step_cnt2 .img_box1 .img5,
+	.main_box .main ul.cnt li div.step_cnt2 .img_box1 .img6{
+		width: 50%;
+	}
+	.main_box .main ul.cnt li div.step_cnt2 .img_box1 .img3{
+		float: right;
+		margin-left: 0;
+		width: 50%;
+	}
+	
+}
+@media screen and (max-width:768px ) {
+	.main_box .main ul.cnt li div.step_cnt1 .recruitabs header h4 span:last-child{
+	float: left;
+}
+}

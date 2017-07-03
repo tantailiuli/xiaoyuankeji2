@@ -1,0 +1,82 @@
+.artical_box{
+	padding: 40px 0;
+	overflow: hidden;
+}
+.artical_box .artical{
+	padding: 0 10px;
+	overflow: hidden;
+}
+.artical_box .artical header{
+	border-bottom: 1px solid #ddd;
+}
+.artical_box .artical header h1{
+	font-size: 30px;
+	font-weight: bold;
+	margin: 0 0 10px 0;
+	text-align: center;
+}
+.artical_box .artical header p{
+	font-size: 16px;
+	color: #777;
+	text-align: center;
+}
+.artical_box .artical header p.time{
+	margin-bottom: 30px;
+}
+.artical_box .artical header p a{
+	color: #777;
+}
+.artical_box .artical header p a:hover{
+	color: #009ef5;
+}
+.artical_box .artical header div.p p{
+	width: 50%;
+	float: left;
+}
+.artical_box .artical header div.p p.p1{
+	text-align: left;
+}
+.artical_box .artical header div.p p.p2{
+	text-align: right;
+}
+.artical_box .artical div p{
+	font-size: 14px;
+	color: #777;
+	margin: 10px 0;
+	text-indent: 28px;
+}
+.artical_box .artical div img{
+	padding: 10px 0;
+	margin: 0 auto;
+}
+@media screen and (min-width: 992px) {
+	.artical_box .artical div p{
+		font-size: 16px;
+		line-height: 30px;
+		margin: 20px 0;
+	}
+}
+@media screen and (max-width: 992px) {
+	.artical_box .artical header h1{
+		font-size: 24px;
+	}
+	.artical_box .artical header p{
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.artical_box .artical header h1{
+		font-size: 18px;
+	}
+	.artical_box .artical header p.p{
+		flex-direction: column;
+		align-items: center;
+	}
+	.artical_box{
+		padding: 20px 0;
+	}
+	.artical_box .artical header div.p p.p1,
+	.artical_box .artical header div.p p.p2{
+		text-align: center;
+	}
+}
